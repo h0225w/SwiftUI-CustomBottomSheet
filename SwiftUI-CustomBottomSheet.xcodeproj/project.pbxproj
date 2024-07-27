@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70C7B2C2C55287B00C1DF67 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C7B2B2C55287B00C1DF67 /* HomeView.swift */; };
+		B70C7B2E2C5538D700C1DF67 /* CustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70C7B2D2C5538D700C1DF67 /* CustomBottomSheet.swift */; };
 		B75229102C54DAB1009DBE2D /* SwiftUI_CustomBottomSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B752290F2C54DAB1009DBE2D /* SwiftUI_CustomBottomSheetApp.swift */; };
 		B75229122C54DAB1009DBE2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75229112C54DAB1009DBE2D /* ContentView.swift */; };
 		B75229142C54DAB2009DBE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75229132C54DAB2009DBE2D /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B70C7B2B2C55287B00C1DF67 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B70C7B2D2C5538D700C1DF67 /* CustomBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottomSheet.swift; sourceTree = "<group>"; };
 		B752290C2C54DAB1009DBE2D /* SwiftUI-CustomBottomSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-CustomBottomSheet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B752290F2C54DAB1009DBE2D /* SwiftUI_CustomBottomSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CustomBottomSheetApp.swift; sourceTree = "<group>"; };
 		B75229112C54DAB1009DBE2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +75,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B70C7B2A2C55286F00C1DF67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B75229112C54DAB1009DBE2D /* ContentView.swift */,
+				B70C7B2B2C55287B00C1DF67 /* HomeView.swift */,
+				B70C7B2D2C5538D700C1DF67 /* CustomBottomSheet.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B75229032C54DAB1009DBE2D = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				B752290F2C54DAB1009DBE2D /* SwiftUI_CustomBottomSheetApp.swift */,
-				B75229112C54DAB1009DBE2D /* ContentView.swift */,
+				B70C7B2A2C55286F00C1DF67 /* View */,
 				B75229132C54DAB2009DBE2D /* Assets.xcassets */,
 				B75229152C54DAB2009DBE2D /* Preview Content */,
 			);
@@ -257,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70C7B2C2C55287B00C1DF67 /* HomeView.swift in Sources */,
 				B75229122C54DAB1009DBE2D /* ContentView.swift in Sources */,
 				B75229102C54DAB1009DBE2D /* SwiftUI_CustomBottomSheetApp.swift in Sources */,
+				B70C7B2E2C5538D700C1DF67 /* CustomBottomSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +445,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +474,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
