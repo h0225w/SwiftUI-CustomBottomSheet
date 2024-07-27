@@ -27,7 +27,7 @@ struct ContentView: View {
                 Text(title)
             }
             .toolbarBackground(.visible, for: .tabBar)
-            .toolbarBackground(.white, for: .tabBar)
+            .toolbarBackground(.background, for: .tabBar)
     }
 }
 
